@@ -2,7 +2,7 @@ import axios from "axios";
 
 class ApiServices {
     constructor() {
-        this.url = 'http://newsapi.org/v2/'
+        this.url = 'https://newsapi.org/v2/'
     }
 
     getRequest(endpoint, query) {
